@@ -1,0 +1,43 @@
+ubuntu@ip-172-31-6-207:~/linuxexcersise1$ touch testfile{1..10}.txt
+ubuntu@ip-172-31-6-207:~/linuxexcersise1$ ls -ltrh
+total 0
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile9.txt
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile8.txt
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile7.txt
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile6.txt
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile5.txt
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile4.txt
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile3.txt
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile2.txt
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile10.txt
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile1.txt
+
+
+
+ubuntu@ip-172-31-6-207:~/linuxexcersise1$ mv testfile1.txt testfile1.yml
+ubuntu@ip-172-31-6-207:~/linuxexcersise1$ mv testfile2.txt testfile2.yml
+ubuntu@ip-172-31-6-207:~/linuxexcersise1$ mv testfile3.txt testfile3.yml
+ubuntu@ip-172-31-6-207:~/linuxexcersise1$ mv testfile4.txt testfile4.yml
+ubuntu@ip-172-31-6-207:~/linuxexcersise1$ mv testfile5.txt testfile5.yml
+ubuntu@ip-172-31-6-207:~/linuxexcersise1$ ls -ltrh
+total 0
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile9.txt
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile8.txt
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile7.txt
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile6.txt
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile5.yml
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile4.yml
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile3.yml
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile2.yml
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile10.txt
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile1.yml
+ubuntu@ip-172-31-6-207:~/linuxexcersise1$
+
+
+
+ubuntu@ip-172-31-6-207:~/linuxexcersise1$ ls -ltr | tail -5
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile4.yml
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile3.yml
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile2.yml
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile10.txt
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile1.yml
