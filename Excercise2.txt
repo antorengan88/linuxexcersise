@@ -1,0 +1,15 @@
+ubuntu@ip-172-31-6-207:~/linuxexcersise1$ touch demo.txt
+ubuntu@ip-172-31-6-207:~/linuxexcersise1$ chmod 777 demo.txt
+ubuntu@ip-172-31-6-207:~/linuxexcersise1$ ls -ltr
+total 0
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile9.txt
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile8.txt
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile7.txt
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile6.txt
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile5.yml
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile4.yml
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile3.yml
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile2.yml
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile10.txt
+-rw-rw-r-- 1 ubuntu ubuntu 0 Jan 29 03:46 testfile1.yml
+-rwxrwxrwx 1 ubuntu ubuntu 0 Jan 29 04:04 demo.txt
