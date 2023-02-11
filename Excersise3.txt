@@ -1,0 +1,35 @@
+nslookup guvi.in
+
+Server:         127.0.0.53
+Address:        127.0.0.53#53
+
+Non-authoritative answer:
+Name:   guvi.in
+Address: 104.21.95.95
+Name:   guvi.in
+Address: 172.67.144.22
+Name:   guvi.in
+Address: 2606:4700:3030::ac43:9016
+Name:   guvi.in
+Address: 2606:4700:3034::6815:5f5f
+
+
+ubuntu@ip-172-31-6-207:~$ vmstat
+procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
+ 0  0      0  75796   9576 325200    0    0   380   643   98  214  4  1 95  0  0
+ubuntu@ip-172-31-6-207:~$
+
+
+ubuntu@ip-172-31-6-207:~$ ping google.com
+
+This command will help to test the connectivity between 2 nodes.
+
+ubuntu@ip-172-31-6-207:~$ netstat -tulpn | grep LISTEN
+(Not all processes could be identified, non-owned process info
+ will not be shown, you would have to be root to see it all.)
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN      -
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -
+tcp6       0      0 :::8080                 :::*                    LISTEN      -
+tcp6       0      0 :::22                   :::*                    LISTEN      -
+ubuntu@ip-172-31-6-207:~$
