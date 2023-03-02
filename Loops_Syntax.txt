@@ -1,0 +1,15 @@
+while [condition]
+do
+command
+done
+
+
+for i in <<list>>
+do
+  command
+done
+
+until [condition]
+do
+command
+done
